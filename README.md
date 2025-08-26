@@ -1,6 +1,6 @@
 # Real-Time Video Enhancement Desktop Application
 
-#Overview
+Overview
 This repository contains the implementation of a desktop application designed to enhance video quality in real-time for videoconferencing platforms, developed as a final year project at Redeemer’s University. The project addresses the challenges of poor video quality in platforms like Zoom and Microsoft Teams, caused by low-resolution webcams, poor lighting, or network issues. Due to browser sandboxing restrictions, the solution shifted from a browser plugin to a desktop-based approach that captures and enhances video streams by mirroring the parent window.
 The application focuses on lightweight, CPU-friendly video enhancement techniques, making it suitable for average hardware used in academic environments. It evaluates multiple models (e.g., ReBotNet, Real-ESRGAN, NAFNet, SwinIR, and CLAHE) for their feasibility in real-time scenarios, prioritizing low latency and perceptual quality.
 
